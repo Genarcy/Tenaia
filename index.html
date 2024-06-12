@@ -22,19 +22,10 @@
       overflow: hidden;
     }
 
-    .letter-t, .letter-e, .letter-n, .letter-a, .letter-i {
-      position: absolute;
-      bottom: 0;
-      transform: translateX(-50%);
-      width: 40px; /* Adjusted the width */
-      height: 120px; /* Adjusted the height */
-      background-color: black;
-    }
-
     #stickman {
       position: absolute;
       bottom: 0;
-      left: calc(50% - 10px); /* Adjusted the positioning */
+      left: calc(50% - 10px);
     }
 
     .head, .body, .left-arm, .right-arm, .left-leg, .right-leg {
@@ -49,13 +40,22 @@
     }
 
     .left-arm, .right-arm {
-      width: 10px;
-      height: 30px;
+      width: 5px; /* Adjusted width */
+      height: 20px; /* Adjusted height */
     }
 
     .left-leg, .right-leg {
-      width: 10px;
-      height: 35px;
+      width: 5px; /* Adjusted width */
+      height: 25px; /* Adjusted height */
+    }
+
+    .letter-t {
+      position: absolute;
+      bottom: 0;
+      left: 25%;
+      width: 20px;
+      height: 120px; /* Adjusted height */
+      background-color: black;
     }
   </style>
 </head>
