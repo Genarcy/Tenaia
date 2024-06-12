@@ -1,3 +1,4 @@
+/* CSS */
 body, html {
   margin: 0;
   padding: 0;
@@ -14,22 +15,19 @@ body, html {
   overflow: hidden;
 }
 
-.letter-t {
+.letter-t, .letter-e, .letter-n, .letter-a, .letter-i {
   position: absolute;
   bottom: 0;
-  left: 50%;
   transform: translateX(-50%);
   width: 100px;
   height: 200px;
   background-color: black;
 }
 
-/* Add styles for other letters similarly */
-
 #stickman {
   position: absolute;
   bottom: 0;
-  left: calc(50% - 25px); /* Adjusted the positioning */
+  left: calc(50% - 25px);
   width: 50px;
   height: 100px;
   display: flex;
@@ -58,4 +56,3 @@ body, html {
   width: 10px;
   height: 35px;
 }
-
